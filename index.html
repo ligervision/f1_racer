@@ -7,7 +7,7 @@
         <meta name="Description" content="Enter your description here"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <script src="./js/f1.js"></script>
+        <script src="./js/f1.js" defer></script>
         <title>F1 Racer Standings</title>
         <style>
             .position {
@@ -30,7 +30,7 @@
             <div class="row">
 
                 <!-- Form that takes in F1 season, round -->
-                <form action="submit" id="f1_form" onsubmit="return sendData()">
+                <form action="submit" id="f1_form"> 
                     <div class="form-group">
                         <div class="col-5">
                             <input type="text" name="season" id="season" class="form-control" placeholder="Season">
@@ -48,9 +48,7 @@
 
             <div class="row" id="standingTable">
                 <!-- Create table and display standings here via JavaScript -->
-                <div id="app">
-
-                </div>
+               
             </div>
         </div>
 
