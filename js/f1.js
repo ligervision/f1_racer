@@ -72,9 +72,9 @@ async function handleSubmit(e){ // <-- e for 'event'
     console.log(standingsData)
 }
 
-// async function buildStandingsTable(standingsData){
-
-// }
+async function buildStandingsTable(standingsData){
+    console.log(standingsData)
+}
 
 
 const myForm = document.getElementById('f1_form');
